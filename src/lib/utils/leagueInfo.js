@@ -27,10 +27,11 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "managerID": "858374583663841280",
+      "name": "Greg",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "location": "Houston", // (optional)
+      "bio": "Go Coogs...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -49,10 +50,11 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "managerID": "869058926044499968",
+      "name": "Jimmy",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "location": "Nashville", // (optional)
+      "bio": "Weiner, weiner chicken weiner...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -71,7 +73,8 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "managerID": "869280572747501568",
+      "name": "Scott",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
