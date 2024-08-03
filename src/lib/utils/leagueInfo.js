@@ -28,7 +28,6 @@ export const managers = [
     {
       "managerID": "858374583663841280",
       "name": "Greg",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Houston", // (optional)
       "bio": "Go Coogs...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -50,7 +49,6 @@ export const managers = [
     {
       "managerID": "869058926044499968",
       "name": "Jimmy",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Nashville", // (optional)
       "bio": "Weiner, weiner chicken weiner...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -72,7 +70,6 @@ export const managers = [
     {
       "managerID": "869280572747501568",
       "name": "Scott",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -94,7 +91,6 @@ export const managers = [
    {
       "managerID": "869282273147662336",
       "name": "Brian",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -116,7 +112,6 @@ export const managers = [
      {
       "managerID": "869290914697351168",
       "name": "Fieff",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -138,7 +133,6 @@ export const managers = [
      {
       "managerID": "869296519000510464",
       "name": "Todd",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -160,7 +154,6 @@ export const managers = [
      {
       "managerID": "869300383116369920",
       "name": "Adrian",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -182,7 +175,6 @@ export const managers = [
     {
       "managerID": "869300430885294080",
       "name": "Relick",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -204,7 +196,6 @@ export const managers = [
     {
       "managerID": "869301684923437056",
       "name": "Brian Oakes",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -226,7 +217,6 @@ export const managers = [
   {  
       "managerID": "869301967946682368",
       "name": "Price",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -248,7 +238,6 @@ export const managers = [
    {  
       "managerID": "999375644318367744",
       "name": "Gordon",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -269,8 +258,7 @@ export const managers = [
     },
        {  
       "managerID": "869315584825917440",
-      "name": "Big Phil",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "name": "Phil",
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
