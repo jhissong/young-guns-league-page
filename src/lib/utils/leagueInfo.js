@@ -7,6 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
+  <a href=https://docs.google.com/spreadsheets/d/1S8hxdi-Y5I8etyP_047DpQUtsiVO3BzAkAbdaOotDXU/edit?usp=sharing>LeageFees</a>
   <p>This is my league.</p>
   <p>Paragraph 2.</p>
   <p>I am better than everyone else.</p>
