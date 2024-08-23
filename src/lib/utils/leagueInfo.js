@@ -8,10 +8,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <a href="https://docs.google.com/spreadsheets/d/1S8hxdi-Y5I8etyP_047DpQUtsiVO3BzAkAbdaOotDXU/edit?usp=sharing" target="_blank" align="right">League Fees</a>
-  <p>This is my league.</p>
-  <p>Paragraph 2.</p>
-  <p>I am better than everyone else.</p>
-  <p>Weiner.</p>
+  <p>Depending on who you ask, The Young Guns League was founded in 2007 when either a bunch of Sigma Nu’s at the University of Houston realized their current fantasy football league sucked (and was eventually going to fall apart) or when some other guys from Klein Oak Highschool realized they didn’t know enough people independently to start a league of their own.</p>
+  <p>The league began as a 2QB standard redraft league. It slowly transformed when Geoff Relick realized he could not win a championship in the current format, and his league mates chose to placate him with the first official Young Guns Dynasty season in 2013.</p>
+  <p>We have seen Sigma Nus come and go (though KOHS remains strong) and added many other degenerates along the way.</p>
+  <p>Since its inception and transformation, the Young Guns Dynasty League has gone continental, with drafting events and manager residences in multiple states nationwide. This is hands-down the gayest, loudest, most argumentative group of fantasy managers on the dark web. Here’s to many more seasons.</p>
   <p>Paragrahp again.</p>
   <p>Oh yeah boy.</p>
 `;
