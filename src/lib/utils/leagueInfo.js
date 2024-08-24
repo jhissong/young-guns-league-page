@@ -12,8 +12,7 @@ export const homepageText = `
   <p>The league began as a 2QB standard redraft league. It slowly transformed when Geoff Relick realized he could not win a championship in the current format, and his league mates chose to placate him with the first official Young Guns Dynasty season in 2013.</p>
   <p>We have seen Sigma Nus come and go (though KOHS remains strong) and added many other degenerates along the way.</p>
   <p>Since its inception and transformation, the Young Guns Dynasty League has gone continental, with drafting events and manager residences in multiple states nationwide. This is hands-down the gayest, loudest, most argumentative group of fantasy managers on the dark web. Here’s to many more seasons.</p>
-  <p>Paragrahp again.</p>
-  <p>Oh yeah boy.</p>
+
 `;
 
 /*   STEP 3   */
