@@ -129,8 +129,7 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Definition</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Penalty</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
-
+        
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
@@ -263,9 +262,6 @@
     <h3 bind:this={sixTwo}>6.2 Penalty</h3>
     <p>A tanking offense will result in the automatic end-of-first-round pick (1.12) in the next draft to immediately follow the offense. Later rounds (2-4) will be unaffected. In the event multiple managers are subject to tanking offenses, the penalized drafting order will be determined by the date of the infraction.</p>
     
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
-
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
