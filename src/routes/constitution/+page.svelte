@@ -168,12 +168,12 @@
     
     <p>12 Bench </p>
 
-    <p>1 IR Spots (Player must be labeled as IR or Out in the Sleeper App. Players that miss time due to suspension, 
+    <p>1 IR Spots (To be eligible, a player must be designated as IR or Out in the Sleeper App. Players that miss time due to suspension, 
         COVID, holdout/opt-out, or otherwise not active are not eligible for the Injured Reserve. Doubtful health 
-        designations are not eligible for IR.))</p>
+        designations are not eligible for IR.)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
+        <p> No active position maximums exist. Managers may roster any number of players at any position. </p>
         <div class="subBlock">
             <table class="positionMaximums">
                 <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
