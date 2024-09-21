@@ -193,7 +193,7 @@
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>Each year's draft rounds will be linear (non-snaking).</p>
     <p>For teams ending the regular season 7-12 (non-playoff contenders) the prior season, the draft order will be determined by their Max Points For (the points a team would have scored each week if they started the optimal roster). The reverse of total Max Points For standing will be used for draft order. The manager with the least Max Points For will draft 1st, the player with the second least Max Points For will draft 2nd, and so on.</p>
-    <p>For teams ending the regular season 1-6 (playoff contenders) the prior season, the draft order will be determined by reverse playoff finishing place. The prior season league champion will draft 12th, the runner up will draft 11th, and so on.</P>
+    <p>For teams ending the regular season 1-6 (playoff contenders) the prior season, the draft order will be determined by reverse playoff finishing place. The prior season league champion will draft 12th, the runner up will draft 11th, and so on.</p>
 
     <h3 bind:this={twoTwo}>2.2 Draft Mechanics</h3>
     <p>The draft will be conducted virtually through the Sleeper App and will consist of four rounds in total. The draft will begin at a predetermined date and time, which will be communicated each season by the conclusion of the NFL Draft in April. The draft start time will be communicated through league chat in the Sleeper App.</p>
