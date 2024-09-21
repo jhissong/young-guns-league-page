@@ -96,19 +96,13 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">YOUNG GUNS DYNASTY CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
@@ -171,21 +165,8 @@
     <p>1 IR Spots (To be eligible, a player must be designated as IR or Out in the Sleeper App. Players that miss time due to suspension, 
         COVID, holdout/opt-out, or otherwise not active are not eligible for the Injured Reserve. Doubtful health 
         designations are not eligible for IR.)</p>
-    
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        <p> No active position maximums exist. Managers may roster any number of players at any position. </p>
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-            </table>
-        </div>
-
-
+    <p> No active position maximums exist. Managers may roster any number of players at any position. </p>
+       
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
     <p>Tradable assets include players, draft picks, and FAAB dollars.</p>
