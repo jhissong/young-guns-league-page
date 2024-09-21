@@ -254,9 +254,9 @@
         <li>Submission of a weekly starting roster with a player on Injured Reserve (IR) or Not Available (NA)</li>
         <li>Submission of a weekly starting roster spot that is unoccupied (completely open)</li>
         <li>Submission of a weekly starting roster with a player (or defense) on a Bye</li>
-    </ul>
+        </ul>
     <p>If a manager has no roster depth at the position in which a tanking indicator appears, then no taking offense will apply, as the rule is intended to penalize poor team management and not force managers to drop players to free agency.</p>
-    <p> <i>scenario one</i></p>
+    <p>scenario one</p>
 
 
     <h3 bind:this={sixTwo}>6.2 Penalty</h3>
