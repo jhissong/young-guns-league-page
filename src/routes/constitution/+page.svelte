@@ -100,7 +100,7 @@
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster Construction</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
@@ -118,7 +118,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Seeding and Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -139,7 +139,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Construction</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
@@ -205,15 +205,19 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>In addition to standard fantasy football scoring mechanics, the league employs bonuses based on total yards, points per reception, and penalties for special teams players.</p>
+    <p>Details of the current league scoring system can be found within the Sleeper App.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <p>The regular season will end with the conclusion of games in week 14. The top 6 teams will enter the league playoff championship bracket.</p>
+    <p>The first round of playoffs will commence in week 15.</p>
+    <p>Each playoff matchup (including the championship game) will last only one week, and the winner will advance. No re-seeding will occur in the playoffs.</p>
+
+    <h3 bind:this={fourTwo}>4.2 Seeding and Tiebreakers</h3>
+    <p>Match-ups and byes will be dictated by the end of the regular season standings. The first-place and second-place regular season finishers will have a bye in week 1. The remaining postseason matchups will also be determined by regular season finish. The 6th-place finisher will play the 3rd-place finisher and the 5th-place finisher will play the 4th-place finisher.</p>
+    <p>If two teams finish with the same regular season record the tiebreakers will go as followed:</p>
 
     <ol>
         <li>Points For</li>
@@ -223,7 +227,7 @@
         <li>Coin Flip</li>
         <li>Duel to the death</li>
     </ol>
-
+    <p>If a weekly playoff matchups end with a tie score, the winner is automatically the higher seed.</p> 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
