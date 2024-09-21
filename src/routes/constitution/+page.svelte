@@ -256,10 +256,10 @@
         <li>Submission of a weekly starting roster with a player (or defense) on a Bye</li>
         </ul>
     <p>If a manager has no roster depth at the position in which a tanking indicator appears, then no taking offense will apply, as the rule is intended to penalize team management mismanagement and not force managers to drop players to free agency.</p>
-    <p>For example:</p>
-    <p>A manager has a quality team defense that is currently on a bye. Adding an alternative defense would require either dropping the quality defense or another skill player. <em>This manager would be permitted to leave the defense position open or start the defense on a bye this week.</em></p>
-
-
+    <p>Consider the scenarios below as reference:</p>
+    <p>A manager has a team defense that is currently on a bye. Adding an alternative defense would require either dropping their rostered defense or another rostered skill player. <em>This manager would be permitted to leave the defense position open or start the defense on a bye this week as there is no depth behind their current rostered defense on a bye.</em></p>
+    <p>A manager has an elite WR dealing with a reported injury all week and determined to be a game-time decision. The manager did not utilize the Sleeper autosub feature and the WR was determined to be OUT minutes before kickoff. The OUT WR was submitted in the manager's starting roster. The manager had one additional WR on their bench that was not started. <em>This manager would be subject to a tanking offense.</em></p>
+    
     <h3 bind:this={sixTwo}>6.2 Penalty</h3>
     <p>A tanking offense will result in the automatic end-of-first-round pick (1.12) in the next draft to immediately follow the offense. Later rounds (2-4) will be unaffected. In the event multiple managers are subject to tanking offenses, the penalized drafting order will be determined by the date of the infraction.</p>
     
