@@ -191,8 +191,10 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>Each year's draft order will be linear, in reverse order of the previous year’s regular season standings for teams finishing 7th-12th place and in reverse order of playoff finish for teams participating in the previous season’s playoff bracket.</p>
-    
+    <p>Each year's draft rounds will be linear (non-snaking).</p>
+    <p>For teams ending the regular season 7-12 (non-playoff contenders) the prior season, the draft order will be determined by their Max Points For (the points a team would have scored each week if they started the optimal roster). The reverse of total Max Points For standing will be used for draft order. The manager with the least Max Points For will draft 1st, the player with the second least Max Points For will draft 2nd, and so on.</p>
+    <p>For teams ending the regular season 1-6 (playoff contenders) the prior season, the draft order will be determined by reverse playoff finishing place. The prior season league champion will draft 12th, the runner up will draft 11th, and so on.</P>
+
     <h3 bind:this={twoTwo}>2.2 Draft Mechanics</h3>
     <p>The draft will be conducted virtually through the Sleeper App and will consist of four rounds in total. The draft will begin at a predetermined date and time, which will be communicated each season by the conclusion of the NFL Draft in April. The draft start time will be communicated through league chat in the Sleeper App.</p>
     <p>All unowned players are eligible to be drafted. This includes rookies and veterans in free agency.</p>
@@ -246,10 +248,19 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 Tanking Policy</h2>
     
     <h3 bind:this={sixOne}>6.1 Definition</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
+    <p>Tanking is the practice of intentionally losing games or fielding a non-competitive team to take advantage of league rules and attempt to inherit a better draft position in the following season draft.</p>
+    <p>A league vote was conducted prior to the 2024 season determining that any of the actions (or inactions) below are an indication of tanking, and subject to a league penalty:</p>
+        <ul>
+        <li>Submission of a weekly starting roster with a player on Injured Reserve (IR) or Not Available (NA)</li>
+        <li>Submission of a weekly starting roster spot that is unoccupied (completely open)</li>
+        <li>Submission of a weekly starting roster with a player (or defense) on a Bye</li>
+    </ul>
+    <p>If a manager has no roster depth at the position in which a tanking indicator appears, then no taking offense will apply, as the rule is intended to penalize poor team management and not force managers to drop players to free agency.</p>
+    <p> <i>scenario one</i></p>
+
+
     <h3 bind:this={sixTwo}>6.2 Penalty</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <p>A tanking offense will result in the automatic end-of-first-round pick (1.12) in the next draft to immediately follow the offense. Later rounds (2-4) will be unaffected. In the event multiple managers are subject to tanking offenses, the penalized drafting order will be determined by the date of the infraction.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
