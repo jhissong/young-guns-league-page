@@ -154,20 +154,23 @@
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
+        <li>QB</li>
         <li>RB</li>
         <li>RB</li>
+        <li>WR</li>
         <li>WR</li>
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
         <li>D/ST</li>
         <li>K</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>12 Bench </p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>1 IR Spots (Player must be labeled as IR or Out in the Sleeper App. Players that miss time due to suspension, 
+        COVID, holdout/opt-out, or otherwise not active are not eligible for the Injured Reserve. Doubtful health 
+        designations are not eligible for IR.))</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
