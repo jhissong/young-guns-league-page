@@ -120,21 +120,22 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Seeding and Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: New Rules or Managers </h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Rule Changes</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.2 Replacing Managers</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Tanking Policy</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Definition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Penalty</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        
     
     
     <hr />
@@ -228,17 +229,26 @@
         <li>Duel to the death</li>
     </ol>
     <p>If a weekly playoff matchups end with a tie score, the winner is automatically the higher seed.</p> 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 New Rules or Managers</h2>
     
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h3 bind:this={fiveOne}>5.1 Rule Changes</h3>
+    <p>No in-season rule changes will take place. This means rules are locked from the beginning of the regular season draft through the end-of-season championship game.</p>
+    <p>Proposals for rule changes can be submitted at any time. A vote on rule change proposals will occur on the day of next season's draft. All proposals must be structured with an affirmative/negative response for participating voters.</p>
+    <p>Rule proposals receiving an affirmative vote of 2/3 of participants will pass and be in effect for the following season. An abstain of vote on any single proposal will reduce the number of voting participants the 2/3 threshold will be based on.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h3 bind:this={fiveOne}>5.2 Replacing Managers</h3>
+    <p>This league looks to be a fun outlet for like-minded managers who engage in year-long fantasy team management. Participation through the league chat and in-person draft events is encouraged, but failing to do so is not grounds for manager removal.</p>
+    <p>In the event a manager elects to retire from the league, the commissioners will work to find a suitable candidate with some connection to existing managers (no strangers) who is willing to take on a dynasty commitment and be active throughout the year.</p>
+    <p>Recommendations for future manager prospects are highly encouraged. We want to fill league spots with prospects who have heard about our league and wanted to join for a while.</p>
+    <p>Incoming managers will inherit the roster and draft picks left by the retiring manager. A one-time league discount (affecting the end-of-season payout) may be afforded to an incoming manager at the commissioner's discretion.</p>
+
+
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Tanking Policy</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+    <h3 bind:this={sixOne}>6.1 Definition</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
+    <h3 bind:this={sixTwo}>6.2 Penalty</h3>
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
@@ -247,18 +257,16 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
-    
+    <p>League dues are set at $200 per manager. They are due in advance of the kick-off of the first game of the current NFL season.</p>
+    <p>Any manager failing to pay their fee prior to the season kick-off will experience a ‘roster-lock’ which will prevent changes to their weekly line-up. Losses resulting from a ‘roster-lock’ will not be reversed.</p>
+
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
+    <p>The league payout will reward first, second and third place playoff finishers. The payout will be comprised of all current season dues and all current season FAAB budget reloads.</p>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: 70% of total season funds collected</li>
+        <li>2nd place: 20%</li>
+        <li>3rd place: 10%</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
-    
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
 </div>
