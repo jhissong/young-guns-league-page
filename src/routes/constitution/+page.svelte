@@ -255,8 +255,9 @@
         <li>Submission of a weekly starting roster spot that is unoccupied (completely open)</li>
         <li>Submission of a weekly starting roster with a player (or defense) on a Bye</li>
         </ul>
-    <p>If a manager has no roster depth at the position in which a tanking indicator appears, then no taking offense will apply, as the rule is intended to penalize poor team management and not force managers to drop players to free agency.</p>
-    <p>scenario one</p>
+    <p>If a manager has no roster depth at the position in which a tanking indicator appears, then no taking offense will apply, as the rule is intended to penalize team management mismanagement and not force managers to drop players to free agency.</p>
+    <p>For example:</p>
+    <p>A manager has a quality team defense that is currently on a bye. Adding an alternative defense would require either dropping the quality defense or another skill player. <em>This manager would be permitted to leave the defense position open or start the defense on a bye this week.</em></p>
 
 
     <h3 bind:this={sixTwo}>6.2 Penalty</h3>
