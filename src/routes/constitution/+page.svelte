@@ -108,8 +108,8 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Draft Mechanics</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Clock Management and In-Draft Trades</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -179,23 +179,29 @@
        
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>FAAB bidding provides managers with a budget during the season for free agents and uses a blind bidding process to select people off free agency each week. As waivers are processed weekly, the highest bidder for each player wins the claim.</p>
+    <p>Each team will receive $100 FAAB at the beginning of the season (immediately following the draft). Managers may re-load their FAAB budget with a league payment of $100. FAAB budgets can never exceed $100 FAAB dollars. Additional funds added to the FAAB budget will be added to the current season funds paid to the end-of-year winners.</p>
+    <p>If two or more teams bid the same amount, the tiebreaker comes down to waiver wire priority, which acts as rolling waivers. The waiver wire priority can be found in your league's standings and can be adjusted by the commissioner if desired.</p>
+    <p>During the regular season (following the draft), waivers will clear on Wednesdays at 2 AM CST. During the offseason (Beginning week 18 through the next draft), all waivers will be locked, and no players will be eligible to be picked up in free agency.</p>
+    <p>A player dropped in the middle of the week will be held on waivers for two days. Managers may bid on the dropped player. That player's waiver holding will clear at 2 AM CST the day following a two-day hold. A player added from free agency must be owned by a manager for 24 hours before being released for the two-day waiver wire hold to exist.</p>
+    <p>Players will be in free agency (available to be added immediately) until the NFL kicks off their teams' weekly matchup.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
-
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>Each year's draft order will be linear, in reverse order of the previous year’s regular season standings for teams finishing 7th-12th place and in reverse order of playoff finish for teams participating in the previous season’s playoff bracket.</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
-    
+    <h3 bind:this={twoTwo}>2.2 Draft Mechanics</h3>
+    <p>The draft will be conducted virtually through the Sleeper App and will consist of four rounds in total. The draft will begin at a predetermined date and time, which will be communicated each season by the conclusion of the NFL Draft in April. The draft start time will be communicated through league chat in the Sleeper App.</p>
+    <p>All unowned players are eligible to be drafted. This includes rookies and veterans in free agency.</p>
+    <p>Managers do not have to drop players from their existing roster before the draft (to make room for new additions), but following the draft, managers will be required to make cuts to match the total roster limit by the kick-off of the first game of the NFL regular season. Managers cannot set lineups within the Sleeper App when roster limits are exceeded.</p>
+    <p>Managers will be allotted 5 minutes to execute a pick. When the time expires, picks will default to an automatic pick made by the Sleeper App or any prioritized picks set by the manager prior to the clock expiration (players in cue).</p>
+  
+    <h3 bind:this={twoThree}>2.3 Draft Clock Management and In-Draft Trades</h3>
+    <p>The draft clock may be paused at any time at the discretion of the commissioner.</p>
+    <p>If a trade is made during the draft that affects a pick currently on the clock, the commissioner will pause the draft clock. A manager inheriting the pick will inherit the time remaining on the existing clock, however, managers will be guaranteed a minimum of 30 seconds following an accepted trade within the Sleeper App. Additional time to negotiate the terms of the trade for a pick on the clock will not be afforded.</p>
+   
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
