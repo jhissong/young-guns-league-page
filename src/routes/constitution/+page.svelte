@@ -188,7 +188,13 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Tradable assets include players, draft picks, and FAAB dollars.</p>
+    <p>Trades will be processed after 24 hours or immediately with action from the commissioner.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) is allowed, however, draft picks beyond the picks available for trade in the Sleeper App are not permitted.</p>
+    <p>The trade deadline will be set for week 12 of the NFL season. All trades must be accepted within the Sleeper app by the conclusion of the final game of the week.</p>
+    <p>FAAB dollars for the current season only may be traded. If FAAB dollars are not available in the Sleeper App, they are not available for trade. The maximum FAAB available for trade within a single transaction is $100.</p>
+    <p>No veto process exists. If all parties agree to the terms of a trade, and the trade is processed in the Sleeper App, the trade cannot be reversed unless another rule within the league constitution has been compromised with the trade.</p>
+    
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
