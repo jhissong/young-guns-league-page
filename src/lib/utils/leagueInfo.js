@@ -89,7 +89,7 @@ export const managers = [
     },
    {
       "managerID": "869282273147662336",
-      "name": "Brian",
+      "name": "Hammer",
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -194,7 +194,7 @@ export const managers = [
     },
     {
       "managerID": "869301684923437056",
-      "name": "Brian Oakes",
+      "name": "Oakes",
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
