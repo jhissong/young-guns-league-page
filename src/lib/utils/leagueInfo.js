@@ -321,7 +321,7 @@ export const managers = [
     },
    {  
       "managerID": "1194055633838415872",
-      "name": "Greg",
+      "name": "AggieGreg",
       "location": "Houston", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
