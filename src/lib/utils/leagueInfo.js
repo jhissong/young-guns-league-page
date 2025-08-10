@@ -13,7 +13,9 @@ export const homepageText = `
   <p>We have seen Sigma Nus come and go (though KOHS remains strong) and added friends, jews, neighbors, and many other degenerates along the way.</p>
   <p>Since its inception and transformation, the Young Guns Dynasty League has gone continental, with drafting events and manager residences in multiple states nationwide. This is hands-down the gayest, loudest, most argumentative group of fantasy managers on the dark web. Here’s to many more seasons.</p>
   <p></p>
+  <p></p>
   <a href="https://docs.google.com/spreadsheets/d/1S8hxdi-Y5I8etyP_047DpQUtsiVO3BzAkAbdaOotDXU/edit?usp=sharing" target="_blank" align="right">2024 Gambleholics Anonymous</a>
+  <p></p>
   <a href="https://docs.google.com/spreadsheets/d/1rOcsW9fnKVoTmsTLlCaBwX-pCinr5lSckqbbnHwaj7k/edit?usp=sharing" target="_blank" align="right">2025 Gambleholics Anonymous</a>
   `;
 
