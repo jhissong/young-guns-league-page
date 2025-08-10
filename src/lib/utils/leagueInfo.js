@@ -325,7 +325,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
    {  
-      "managerID": "1194055633838415872",
+      "managerID": "1194054036479176704",
       "name": "AggieGreg",
       "location": "Houston", // (optional)
       "bio": "Lorem ipsum...",
@@ -344,7 +344,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    }
+    },
   ]
   
   
